@@ -1,0 +1,21 @@
+.flight-time {
+	height: 150px;
+	padding: 0;
+	width: 100%;
+	display: flex;
+}
+.flight-time__time {
+	width: 50%;
+	border: 2px solid rgb(93, 118, 149);
+	background-color: rgb(118, 144, 179);
+}
+.flight-time__time-element {
+	display: flex;
+	height: 50%;
+	border: 2px solid rgb(111, 140, 174);
+}
+.flight-time__element {
+	width: 50%;
+	border: 2px solid rgb(93, 118, 149);
+	background-color: rgb(111, 138, 172);
+}

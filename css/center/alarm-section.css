@@ -1,0 +1,7 @@
+.alarm {
+	height: 100px;
+	background-color: rgb(104, 132, 164);
+	border: 2px solid rgb(93, 118, 149);
+	display: flex;
+	justify-content: space-between;
+}

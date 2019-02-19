@@ -1,0 +1,31 @@
+.burn {
+	padding: 0;
+	height: 180px;
+	display: flex;
+	background-color: rgb(105, 133, 165);
+}
+.burn-date {
+	padding: 2px 1px 1px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.burn-rendezvous {
+
+	flex-direction: column;
+	align-self: flex-start;
+}
+.burn-rendezvous__element {
+	padding: 10px 0 10px 0;
+	display: flex;
+	justify-content: space-between;
+}
+p {
+	margin: 0;
+}
+hr {
+	background-color: rgb(82, 108, 136);
+	width: 100%;
+	margin: 0;
+}

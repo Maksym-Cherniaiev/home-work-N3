@@ -1,0 +1,16 @@
+.date {
+	height: 120px;
+	display: flex;
+	width: 100%;
+	padding: 0;
+}
+.date__element-date{
+	background-color: rgb(152, 181, 211);
+	width: 40%;
+	border: 2px solid rgb(93, 118, 149);
+}
+.date__element {
+	background-color: rgb(152, 181, 211);
+	width: 33.33%;
+	border: 2px solid rgb(93, 118, 149);
+}

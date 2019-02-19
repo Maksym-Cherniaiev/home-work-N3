@@ -1,0 +1,17 @@
+.title {
+	padding: 0;
+	background-color: rgb(131, 160, 198);
+	display: flex;
+}
+.title-element__left {
+	display: flex;
+	align-self: flex-start;
+	width: 60%;
+	border: 2px solid rgb(111, 140, 174);
+}
+.title-element__right {
+	display: flex;
+	align-self: flex-start;
+	width: 40%;
+	border: 2px solid rgb(111, 140, 174);
+}
