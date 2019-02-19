@@ -1,0 +1,9 @@
+@import "./header.css";
+@import "./center.css";
+
+body {
+	width: 100%;
+}
+.main {
+	width: 1024px;
+}
