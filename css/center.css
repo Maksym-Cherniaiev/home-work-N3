@@ -4,6 +4,7 @@
 @import "./center/schedule-section.css";
 @import "./center/burn-section.css";
 @import "./center/bellow Burn title.css";
+@import "./center/table.css";
 
 .background-element__image {
 	width: 100%;
