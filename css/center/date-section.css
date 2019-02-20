@@ -5,12 +5,31 @@
 	padding: 0;
 }
 .date__element-date{
-	background-color: rgb(152, 181, 211);
+	padding: 20px 30px 20px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: linear-gradient(rgb(127, 150, 188), rgb(84, 111, 139));
 	width: 40%;
 	border: 2px solid rgb(93, 118, 149);
 }
 .date__element {
-	background-color: rgb(152, 181, 211);
+	padding: 20px 30px 20px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: linear-gradient(rgb(84, 111, 139), rgb(127, 150, 188));
 	width: 33.33%;
 	border: 2px solid rgb(93, 118, 149);
+}
+
+.date__element-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.date__element-current {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }

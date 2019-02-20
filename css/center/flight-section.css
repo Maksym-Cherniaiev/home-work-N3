@@ -7,15 +7,18 @@
 .flight-time__time {
 	width: 50%;
 	border: 2px solid rgb(93, 118, 149);
-	background-color: rgb(118, 144, 179);
+	background: linear-gradient(rgb(127, 150, 188), rgb(84, 111, 139));
 }
 .flight-time__time-element {
+	padding: 10px 20px 10px 20px;
 	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
 	height: 50%;
 	border: 2px solid rgb(111, 140, 174);
 }
 .flight-time__element {
 	width: 50%;
 	border: 2px solid rgb(93, 118, 149);
-	background-color: rgb(111, 138, 172);
+	background: linear-gradient(rgb(127, 150, 188), rgb(84, 111, 139));
 }
