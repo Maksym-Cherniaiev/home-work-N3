@@ -1,0 +1,41 @@
+.flight-duration {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	width: 100%;
+	height: 120px;
+}
+.flight-duration__period {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+
+.flight-duration__period-remains {
+	background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+	height: 60px;
+	border-right: 2px solid rgb(93, 118, 149);
+	border-bottom: 2px solid rgb(93, 118, 149);
+	margin: 2px 0 0 2px;
+	width: 100%;
+	padding: 2px 0 0 2px;
+}
+.flight-duration__period-started {
+	background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+	height: 60px;
+	border-right: 2px solid rgb(93, 118, 149);
+	border-bottom: 2px solid rgb(93, 118, 149);
+	margin: 2px 0 0 2px;
+	width: 100%;
+	padding: 2px 0 0 2px;
+}
+.flight-duration__period-next {
+	background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+	height: 118px;
+	border-right: 2px solid rgb(93, 118, 149);
+	border-bottom: 2px solid rgb(93, 118, 149);
+	margin: 2px 0 0 4px;
+	width: 50%;
+	padding: 2px 0 0 2px;
+}

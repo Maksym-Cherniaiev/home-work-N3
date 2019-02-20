@@ -1,0 +1,30 @@
+.date {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+
+.date-time {
+	background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+	height: 120px;
+	border-right: 2px solid rgb(93, 118, 149);
+	border-bottom: 2px solid rgb(93, 118, 149);
+	margin: 2px 0 0 2px;
+	width: 40%;
+	padding: 2px 0 0 2px;
+}
+.date-params__element {
+	background: linear-gradient(rgb(83, 109, 137), rgb(127, 150, 188));
+	height: 120px;
+	border-right: 2px solid rgb(93, 118, 149);
+	border-top: 2px solid rgb(93, 118, 149);
+	margin: 0 0 2px 2px;
+    width: 33.33%;
+    padding: 0 0 2px 2px;
+}
+.date-params {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	width: 100%;
+}

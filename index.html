@@ -11,172 +11,50 @@
 	<title>navigation system</title>
 </head>
 <body>
-	<div class="container main">
+	<div class="container main-wrap">
 		<header>
-			<div class="container header-nav">
-				<div class="header-nav__element">
-					<p class="header-nav__element-title">Crew</p>
-					<p class="header-nav__element-info">DRAGON</p>
-				</div>
-				<div class="header-nav__element">
-					<p class="header-nav__element-title">Perigee</p>
-					<p class="header-nav__element-info">185,013m</p>
-				</div>
-				<div class="header-nav__element">
-					<p class="header-nav__element-title">Apogee</p>
-					<p class="header-nav__element-info">360,304m</p>
-				</div>
-				<div class="header-nav__element">
-					<p class="header-nav__element-title">Relative Altitude</p>
-					<p class="header-nav__element-info">50,948m</p>
-				</div>
-				<div class="header-nav__element">
-					<p class="header-nav__element-title">range to ISS</p>
-					<p class="header-nav__element-info">625,713m</p>
-				</div>
+			<div class="params">
+				<div class="params-element"></div>
+				<div class="params-element"></div>
+				<div class="params-element"></div>
+				<div class="params-element"></div>
+				<div class="params-element"></div>	
 			</div>
 		</header>
 
 		<main>
 			<!-- IMAGE -->
-			<div class="background-element">
-				<img class="background-element__image" src="images/earth.jpg" alt="earth">
+			<div class="image">
+				<img class="image-earth" src="images/earth.jpg" alt="earth">
 			</div>
 			<!-- DATE -->
 			<div class="container date">
-				<div class="date__element-date">
-					<p class="date__element-day">Day 131</p>
-					<span class="get-time"></span>
-				</div>
-				<div class="date__element">
-					<p>Day 131</p>
-					<p>13:36:11</p>
-				</div>
-				<div class="date__element">
-					<div class="date__element-title">
-						<p>Next Burn</p>
-						<p>Enabled</p>
-					</div>
-					<div class="date__element-time">
-						<p>-0:05:48</p>
-					</div>
-					<div class="date__element-current">
-						<p>13:52:00</p>
-						<p>DAY 131</p>
-					</div>
-				</div>
-				<div class="date__element">
-					<div class="date__element-title">
-						<p>Target</p>
-					</div>
-					<div class="date__element-time">
-						<p>33.5 m/s</p>
-					</div>
-					<div class="date__element-current">
-						<p>Thruster Temps</p>
-					</div>
+				<div class="date-time"></div>
+				<div class="date-params">
+					<div class="date-params__element"></div>
+					<div class="date-params__element"></div>
+					<div class="date-params__element"></div>
 				</div>
 			</div>
 			<!-- ALARM -->
 			<div class="container alarm">
-				<div class="alarm-count">
-					<p >0 alarms</p>
-				</div>
-				<div class="alarm-info">
-					<p>all system nominal</p>
+				<div class="alarm__title">
+					<div class="title-count"></div>
+					<div class="title-info"></div>
 				</div>
 			</div>
-			<!-- FLIGHT TIME -->
-			<div class="container flight-time">
-				<div class="flight-time__time">
-					<div class="flight-time__time-element">
-						<p>0:08:24</p>
-						<div>
-							<p>Next LOS</p>
-							<p>(00:03:17)</p>
-						</div>
-						<div>
-							<p>13:54:36</p>
-							<p>DAY 131</p>
-						</div>
-					</div>
-					<div class="flight-time__time-element">
-						<p>02:51:02</p>
-						<div>
-							<p>Estimated</p>
-							<p>ISS Arrival</p>
-						</div>
-						<div>
-							<p>16:37:15</p>
-							<p>DAY 131</p>
-						</div>
-					</div>
+			<!-- FLIGHT -->
+			<div class="container flight-duration">
+				<div class="flight-duration__period">
+					<div class="flight-duration__period-remains"></div>
+					<div class="flight-duration__period-started"></div>
 				</div>
-				<div class="container breakout">
-					<div class="breakout-time">
-						<p>0:23:23</p>
-						<div class="breakout-time__deorbit">
-							<p>Next Deorbit Window</p>
-							<p>14:09:36</p>
-						</div>
-						<div class="breakout-time__deorbit">
-							<p>Pacific</p>
-							<p>DAY 131</p>
-						</div>
-					</div>
-					<hr>
-					<div class="breakout-speed">
-						<div class="breakout-speed__retrograde">
-							<p>current breakeout</p>
-							<p>Retrograde</p>
-						</div>
-						<div class="breakout-speed__retrograde">
-							<p>^V=5.0 m/s</p>
-						</div>
-					</div>
-				</div>
+				<div class="flight-duration__period-next"></div>
 			</div>
 			<!-- SCHEDULE -->
 			<div class="container schedule">
-				<div class="schedule-element">
-					<p>schedule</p>
-				</div>
-				<div class="schedule-element">
-					<p>all events</p>
-				</div>
-			</div>
-
-			<div class="container burn">
-				<div class="burn-date">
-					<p>13:10:00</p>
-					<p>13:37:00</p>
-					<p>13:46:45</p>
-					<p>13:52:10</p>
-				</div>
-				<div class="burn-img">
-					<!-- <img src="" alt=""> -->
-				</div>
-				<div class="container burn-rendezvous">
-					<div class="burn-rendezvous__element">
-						<p>Rendezvous Burn GO/NO-GO</p>
-						<p>Ground</p>
-					</div>
-					<hr>
-					<div class="burn-rendezvous__element">
-						<p>Prepare for rendezvous burn</p>
-						<p>Crew</p>
-					</div>
-					<hr>
-					<div class="burn-rendezvous__element">
-						<p>Rendezvous burn slow</p>
-						<p>Dragon</p>
-					</div>
-					<hr>
-					<div class="burn-rendezvous__element">
-						<p>Rendezvous Burn</p>
-						<p>Dragon</p>
-					</div>
-				</div>
+				<div class="schedule-title"></div>
+				<div class="schedule-graph"></div>
 			</div>
 
 			<div class="container title">
@@ -274,6 +152,5 @@
 		</footer>
 	</div>
 
-	<script src="js/time.js"></script>
 </body>
 </html>

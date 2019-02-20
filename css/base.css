@@ -1,14 +1,10 @@
 @import "./header.css";
-@import "./center.css";
+@import "./main.css";
 @import "./footer.css";
 
-body {
-	width: 100%;
-}
-.main {
-	width: 1024px;
-}
-p {
-	font-family: 'Teko', sans-serif;
-	margin: 0;
+.main-wrap {
+	background-color: rgb(111, 140, 174);
+	width: 995px;
+	padding: 0;
+	margin: auto;
 }
