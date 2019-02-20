@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./center.css";
+@import "./footer.css";
 
 body {
 	width: 100%;

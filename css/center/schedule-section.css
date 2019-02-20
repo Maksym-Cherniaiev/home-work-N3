@@ -5,11 +5,13 @@
 	justify-content: space-between;
 	border: 2px solid rgb(93, 118, 149);
 	align-items: center;
+	width: 995px;
 }
 
 .burn {
 	border: 2px solid rgb(78, 112, 152);
 	padding: 0;
+	width: 995px;
 	height: 180px;
 	display: flex;
 	background: linear-gradient(rgb(127, 150, 188), rgb(84, 111, 139));

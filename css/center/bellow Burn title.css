@@ -2,6 +2,7 @@
 	padding: 0;
 	background-color: rgb(131, 160, 198);
 	display: flex;
+	width: 995px;
 }
 .title-element__left {
 	padding-left: 10px;
