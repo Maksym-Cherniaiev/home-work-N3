@@ -7,3 +7,17 @@
 	align-items: center;
 	width: 995px;
 }
+.alarm-count {
+	color: rgb(200, 238, 241);
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.alarm-info {
+	color: rgb(217, 244, 245);
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
