@@ -7,3 +7,7 @@ body {
 .main {
 	width: 1024px;
 }
+p {
+	font-family: 'Teko', sans-serif;
+	margin: 0;
+}

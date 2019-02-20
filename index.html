@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link href="https://fonts.googleapis.com/css?family=Teko:400,600" rel="stylesheet">
 	<title>navigation system</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 			<div class="container header-nav">
 				<div class="header-nav__element">
 					<p class="header-nav__element-title">Crew</p>
-					<p class="header-nav__element-info">dragon</p>
+					<p class="header-nav__element-info">DRAGON</p>
 				</div>
 				<div class="header-nav__element">
 					<p class="header-nav__element-title">Perigee</p>
@@ -44,7 +45,7 @@
 			<!-- DATE -->
 			<div class="container date">
 				<div class="date__element-date">
-					<p>Day 131</p>
+					<p class="date__element-day">Day 131</p>
 					<span class="get-time"></span>
 				</div>
 				<div class="date__element">
@@ -111,23 +112,27 @@
 						</div>
 					</div>
 				</div>
-				<div class="flight-time__element">
-					<p>0:23:23</p>
-					<div class="flight-time__element-title">
-						<p>Next Deorbit Window</p>
-						<p>14:09:36</p>
-					</div>
-					<div class="flight-time__element-title">
-						<p>Pacific</p>
-						<p>DAY 131</p>
+				<div class="container breakout">
+					<div class="breakout-time">
+						<p>0:23:23</p>
+						<div class="breakout-time__deorbit">
+							<p>Next Deorbit Window</p>
+							<p>14:09:36</p>
+						</div>
+						<div class="breakout-time__deorbit">
+							<p>Pacific</p>
+							<p>DAY 131</p>
+						</div>
 					</div>
 					<hr>
-					<div class="flight-time__element-lower-title">
-						<p>current breakeout</p>
-						<p>Retrograde</p>
-					</div>
-					<div class="flight-time__element-lower-speed">
-						<p>^V=5.0 m/s</p>
+					<div class="breakout-speed">
+						<div class="breakout-speed__retrograde">
+							<p>current breakeout</p>
+							<p>Retrograde</p>
+						</div>
+						<div class="breakout-speed__retrograde">
+							<p>^V=5.0 m/s</p>
+						</div>
 					</div>
 				</div>
 			</div>

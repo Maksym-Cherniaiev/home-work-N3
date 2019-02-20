@@ -7,5 +7,12 @@
 	background: linear-gradient(rgb(127, 150, 188), rgb(84, 111, 139));
 	width: 20%;
 	border: 2px solid rgb(93, 118, 149);
-	padding: 3px 10px 3px 10px;
+	padding: 3px 10px 0 10px;
+}
+.header-nav__element-info {
+	font-size: 28px;
+	color: rgb(240, 254, 254);
+}
+.header-nav__element-title {
+	color: rgb(240, 254, 254);
 }

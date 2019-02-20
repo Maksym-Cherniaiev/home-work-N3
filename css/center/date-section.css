@@ -5,10 +5,7 @@
 	padding: 0;
 }
 .date__element-date{
-	padding: 20px 30px 20px 30px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	padding: 5px 30px 0 30px;
 	background: linear-gradient(rgb(127, 150, 188), rgb(84, 111, 139));
 	width: 40%;
 	border: 2px solid rgb(93, 118, 149);
@@ -32,4 +29,19 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.get-time {
+	font-family: 'Teko', sans-serif;
+	font-size: 5em;
+	line-height: 80px;
+	margin-top: 10px;
+	letter-spacing: 3px;
+	color: rgb(240, 254, 254);
+}
+.date__element-day {
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-size: 1.3em;
+	color: rgb(240, 254, 254);
 }
