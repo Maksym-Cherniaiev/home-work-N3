@@ -24,16 +24,24 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: rgb(181, 200, 211);
 }
 .date__element-current {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: rgb(189, 208, 221);
+}
+.date__element-time {
+	color: rgb(240, 254, 254);
+	font-size: 3em;
+	font-weight: 300;
 }
 
 .get-time {
 	font-family: 'Teko', sans-serif;
 	font-size: 5em;
+	font-weight: 300;
 	line-height: 80px;
 	margin-top: 10px;
 	letter-spacing: 3px;
