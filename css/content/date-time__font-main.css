@@ -1,3 +1,7 @@
+@import "./date/section2.css";
+@import "./date/section3.css";
+@import "./date/section4.css";
+
 .date-time{
 	display: flex;
     flex-direction: column;
@@ -21,3 +25,4 @@
 	font-weight: 300;
 	line-height: 60px;
 }
+
