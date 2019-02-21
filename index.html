@@ -7,18 +7,50 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" 
+		  href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+		  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+		  crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Teko:300,400" rel="stylesheet">
 	<title>navigation system</title>
 </head>
 <body>
 	<div class="container main-wrap">
 		<header>
+			<!-- HEADER -->
 			<div class="params">
-				<div class="params-element"></div>
-				<div class="params-element"></div>
-				<div class="params-element"></div>
-				<div class="params-element"></div>
-				<div class="params-element"></div>	
+				<div class="params-element">
+					<p class="params-element__title">crew</p>
+					<p class="params-element__main">dragon</p>
+				</div>
+				<div class="params-element">
+					<div class="params-element__wrap">
+						<p class="params-element__title">perigee</p>
+						<div class="params-element__mark"></div>
+					</div>
+					<p class="params-element__main">185.013<span>m</span></p>
+				</div>
+				<div class="params-element">
+					<div class="params-element__wrap">
+						<p class="params-element__title">apogee</p>
+						<div class="params-element__mark"></div>
+					</div>
+					<p class="params-element__main">360.304</p>
+				</div>
+				<div class="params-element">
+					<div class="params-element__wrap">
+						<p class="params-element__title">relative altitude</p>
+						<i class="fas fa-long-arrow-down"></i>
+					</div>
+					<p class="params-element__main">50,948<span>m</span></p>
+				</div>
+				<div class="params-element">
+					<div class="params-element__wrap">
+						<p class="params-element__title">range to <span>iss</span></p>
+						<i class="fas fa-long-arrow-down"></i>
+					</div>
+					<p class="params-element__main">625,713<span>m</span></p>
+				</div>	
 			</div>
 		</header>
 
@@ -29,7 +61,10 @@
 			</div>
 			<!-- DATE -->
 			<div class="container date">
-				<div class="date-time"></div>
+				<div class="date-time">
+					<p class="date-day">day 131</p>
+					<span class="get-time"></span>
+				</div>
 				<div class="date-params">
 					<div class="date-params__element"></div>
 					<div class="date-params__element"></div>
@@ -56,91 +91,14 @@
 				<div class="schedule-title"></div>
 				<div class="schedule-graph"></div>
 			</div>
-
-			<div class="container title">
-				<div class="title-element__left">
-					<p>Rendezvous</p>
+			<!-- EVENTS -->
+			<div class="container events">
+				<div class="container events-title">
+					<div class="events-title-rend"></div>
+					<div class="events-title-aprroach"></div>
 				</div>
-				<div class="title-element__right">
-					<p>Aproach</p>
-				</div>
-			</div>
-
-			<div class="container table">
-				<table class="table-main">
-					<tr class="main-row">
-						<td class="table-row__element">Ground</td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-					</tr>
-					<tr class="main-row">
-						<td class="table-row__element">TDRS</td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-					</tr>
-					<tr class="main-row">
-						<td class="table-row__element">ISS</td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-					</tr>
-					<tr class="main-row">
-						<td class="table-row__element">Eclipse</td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-					</tr>
-					<tr class="main-row">
-						<td class="table-row__element">Burn</td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-					</tr>
-					<tr class="main-row">
-						<td class="table-row__element">Crew</td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-						<td class="table-row__element"></td>
-					</tr>
-				</table>
+				<div class="events-graph"></div>
+				<div class="events-timeLine"></div>
 			</div>
 		</main>
 
@@ -152,5 +110,6 @@
 		</footer>
 	</div>
 
+	<script src="js/time.js"></script>
 </body>
 </html>

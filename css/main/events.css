@@ -1,0 +1,39 @@
+.events {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.events-title {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+.events-title-rend {
+	background-color: rgb(131, 160, 198);
+	height: 40px;
+	margin: 0 0 2px 0;
+	width: 70%;
+}
+.events-title-aprroach {
+	background-color: rgb(131, 160, 198);
+	height: 40px;
+	margin: 0 0 2px 0;
+	width: 30%;
+	border-left: 2px solid rgb(87, 112, 152);
+}
+
+.events-graph {
+	background-color: rgb(103, 131, 163);
+	height: 240px;
+	border-right: 2px solid rgb(93, 118, 149);
+	border-bottom: 2px solid rgb(93, 118, 149);
+	margin: 0 0 2px 2px;
+	width: 100% - 2px;
+}
+.events-timeLine {
+	background-color: rgb(131, 160, 198);
+	height: 40px;
+	margin: 0;
+	width: 100%;
+}

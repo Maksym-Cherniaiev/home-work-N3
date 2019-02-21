@@ -10,8 +10,7 @@
 	border-right: 2px solid rgb(93, 118, 149);
 	border-top: 2px solid rgb(93, 118, 149);
 	margin: 0 0 2px 2px;
-	width: 99.75%;
-	padding: 2px 0 0 2px;
+	width: 100% - 2px;
 }
 .schedule-graph {
 	background-color: rgb(103, 131, 163);
@@ -19,6 +18,5 @@
 	border-right: 2px solid rgb(93, 118, 149);
 	border-bottom: 2px solid rgb(93, 118, 149);
 	margin: 2px 0 0 2px;
-	width: 99.75%;
-	padding: 2px 0 0 2px;
+	width: 100% - 2px;
 }

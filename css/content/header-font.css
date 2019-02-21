@@ -1,0 +1,45 @@
+.params-element__title {
+	font-family: 'Teko', sans-serif;
+	text-transform: capitalize;
+	font-weight: 300;
+	color: rgb(240, 254, 254);
+	margin: 0;
+	padding-left: 20px;
+	width: 110px;
+}
+.params-element__main {
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: rgb(240, 254, 254);
+	font-weight: 400;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 20px;
+	width: 110px;
+}
+.params-element__main span {
+	text-transform: lowercase;
+	color: rgb(170, 234, 241);
+}
+.params-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.params .params-element:nth-of-type(1) { background: rgb(152, 181, 211); }
+
+.params-element__wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.params-element__mark {
+	width: 20px;
+	height: 7px;
+	background: rgb(162, 237, 242);
+}
+.fas {
+	size: 10px;
+}

@@ -3,3 +3,6 @@
 @import "./main/alarm.css";
 @import "./main/flight.css";
 @import "./main/schedule.css";
+@import "./main/events.css";
+
+@import "./content/date-time__font.css";
