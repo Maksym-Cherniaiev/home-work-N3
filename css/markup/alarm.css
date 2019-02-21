@@ -5,7 +5,7 @@
 }
 .alarm__title {
 	background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
-	height: 60px;
+	height: 100px;
 	border-right: 2px solid rgb(93, 118, 149);
 	border-bottom: 2px solid rgb(93, 118, 149);
 	margin: 2px 0 0 2px;

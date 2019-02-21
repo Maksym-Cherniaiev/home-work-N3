@@ -1,8 +1,9 @@
-@import "./main/earth-image.css";
-@import "./main/date.css";
-@import "./main/alarm.css";
-@import "./main/flight.css";
-@import "./main/schedule.css";
-@import "./main/events.css";
+@import "./markup/earth-image.css";
+@import "./markup/date.css";
+@import "./markup/alarm.css";
+@import "./markup/flight.css";
+@import "./markup/schedule.css";
+@import "./markup/events.css";
 
 @import "./content/date-time__font-main.css";
+@import "./content/alarm-font.css";
