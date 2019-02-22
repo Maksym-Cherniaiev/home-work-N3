@@ -1,0 +1,44 @@
+.event {
+	position: absolute;
+	height: 20px;
+	background-color: rgb(151, 182, 219);
+	top: calc(50% - 10px);
+}
+.event--1 {
+	width: 2%;
+	left: 14%;
+}
+.event--2 {
+	width: 3%;
+	left: 24%;
+}
+.event--3 {
+	width: 2%;
+	left: 47%;
+}
+.event--4 {
+	width: 5%;
+	left: 54%;
+}
+.event--5 {
+	width: 3%;
+	left: 73%;
+}
+.event--6 {
+	width: 4%;
+	left: 83%;
+}
+.event--7 {
+	width: 2%;
+	left: 95%;
+}
+.row-content .row-item {
+	display: flex;
+	align-items: center;
+}
+.row-content .row-item p:nth-of-type(1) { 
+	color: rgb(240, 254, 254);
+	text-transform: capitalize;
+	padding-left: 20px;
+	margin: 0;
+}

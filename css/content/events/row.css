@@ -1,0 +1,17 @@
+.main-row {
+	display: flex;
+	flex-direction: column;
+}
+
+.row-content {
+	position: relative;
+	display: flex;
+	width: 100%;
+}
+
+.row-item {
+	border-right: 2px solid rgb(87, 112, 152);
+	border-bottom: 2px solid rgb(87, 112, 152);
+	flex: 1;
+	height: 40px;
+}

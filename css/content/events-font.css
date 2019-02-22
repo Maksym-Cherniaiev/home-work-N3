@@ -1,0 +1,16 @@
+@import "./events/row.css";
+@import "./events/event-length-row1.css";
+@import "./events/event-length-row2.css";
+@import "./events/event-length-row3.css";
+@import "./events/event-length-row4.css";
+@import "./events/event-length-row5.css";
+
+.events-title-name div {
+	margin: 0;
+	padding: 8px 0 0 20px;
+	color: rgb(240, 254, 254);
+	text-transform: capitalize;
+	font-size: 1.2em;
+}
+
+
