@@ -1,0 +1,29 @@
+.schedule-graph__timeLine {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+.schedule-graph__timeLine div {
+	transform: rotate(90deg);
+
+}
+.schedule-graph__timeLine div:nth-of-type(1) {
+	border:	1px dashed rgb(240, 254, 254);
+	position: relative;
+	bottom: 20px;
+}
+.schedule-graph__timeLine div:nth-of-type(2) {
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: rgb(240, 254, 254);
+	position: relative;
+    left: 19px;
+}
+.schedule-graph__timeLine div:nth-of-type(3) {
+	width: 50px;
+	height: 2px;
+	background-color: rgb(240, 254, 254);
+	position: relative;
+	top: 20px;
+}
