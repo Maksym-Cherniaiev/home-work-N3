@@ -4,11 +4,12 @@
 }
 .main-row .second .event--2 {
 	width: 5%;
-	left: 20%;
+	left: 19%;
 }
 .main-row .second .event--3 {
 	width: 6%;
-	left: 37%;
+	left: 33%;
+	background-color: rgb(162, 237, 242);
 }
 .main-row .second .event--4 {
 	width: 4%;

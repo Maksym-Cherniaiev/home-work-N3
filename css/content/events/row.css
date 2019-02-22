@@ -1,6 +1,8 @@
 .main-row {
 	display: flex;
 	flex-direction: column;
+	position: relative;
+    bottom: 2px;
 }
 
 .row-content {
