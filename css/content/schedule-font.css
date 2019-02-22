@@ -1,5 +1,5 @@
 @import "./schedule/timeLine.css";
-@import "./schedule/events.css";
+@import "./schedule/list.css";
 
 .schedule-title div:nth-of-type(1) {
 	font-size: 2em;
