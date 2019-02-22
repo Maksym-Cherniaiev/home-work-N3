@@ -8,7 +8,6 @@
     justify-content: center;
 }
 .date-day {
-	font-family: 'Teko', sans-serif;
 	text-transform: capitalize;
 	color: rgb(240, 254, 254);
 	margin: 0;
@@ -16,7 +15,6 @@
 	width: 110px;
 }
 .get-time {
-	font-family: 'Teko', sans-serif;
 	color: rgb(240, 254, 254);
 	padding-left: 20px;
 	width: 210px;

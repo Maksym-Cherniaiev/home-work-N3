@@ -6,7 +6,6 @@
 .date-params__section4-header {
 	display: flex;
 	flex-direction: row;
-	font-family: 'Teko', sans-serif;
 	text-transform: capitalize;
 	padding-left: 30px;
 	margin: 0;
@@ -26,7 +25,6 @@
 /*===========================================================*/
 
 .date-params__section4-main {
-	font-family: 'Teko', sans-serif;
 	color: rgb(240, 254, 254);
 	padding-left: 30px;
 	font-size: 3em;
@@ -52,7 +50,6 @@
 .date-params__section4-footer {
 	display: flex;
 	flex-direction: row;
-	font-family: 'Teko', sans-serif;
 	text-transform: capitalize;
 	margin: 0;
 	padding-left: 30px;

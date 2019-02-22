@@ -4,7 +4,6 @@
 	align-items: center;
 }
 .alarm__title div {
-	font-family: 'Teko', sans-serif;
 	font-size: 2em;
 	text-transform: uppercase;
 	color: rgb(240, 254, 254);

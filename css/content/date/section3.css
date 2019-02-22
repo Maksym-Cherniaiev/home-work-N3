@@ -8,7 +8,6 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	font-family: 'Teko', sans-serif;
 	text-transform: capitalize;
 	padding-left: 30px;
 	margin: 0;
@@ -34,7 +33,6 @@
 /*===========================================================*/
 
 .date-params__section3-main {
-	font-family: 'Teko', sans-serif;
 	color: rgb(240, 254, 254);
 	padding-left: 20px;
 	font-size: 3em;
@@ -55,7 +53,6 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	font-family: 'Teko', sans-serif;
 	text-transform: capitalize;
 	margin: 0;
 	color: rgb(181, 200, 211);

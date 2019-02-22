@@ -1,0 +1,55 @@
+.flight-duration__deorbit-line {
+	height: 2px;
+	margin: 0 15px 0 15px;
+	background-color: rgb(93, 118, 149);
+}
+.period-lasts__to-end {
+	font-size: 2.8em;
+	display: flex;
+	align-self: center;
+	color: rgb(240, 254, 254);
+	padding-left: 15px;
+}
+.period-lasts__next {
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	color: rgb(188, 206, 220);
+	line-height: 25px;
+	padding-left: 20px;
+}
+.period-lasts__next div:nth-of-type(1) { text-transform: capitalize; }
+.period-lasts__next div span { 
+	text-transform: uppercase;
+}
+.period-lasts__time {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	font-size: 1.5em;
+	color: rgb(188, 206, 220);
+	padding-right: 15px;
+	line-height: 25px;
+	margin-left: auto;
+}
+.period-lasts__time div:nth-of-type(1) { color: rgb(240, 254, 254); }
+.period-lasts__time div:nth-of-type(2) { text-transform: uppercase; }
+
+
+.flight-duration__deorbit-main {
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+.flight-duration__deorbit-retrograde {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+}
+.flight-duration__deorbit-retrograde .period-lasts__next div:nth-of-type(1) { color: rgb(162, 237, 242); }
+.flight-duration__deorbit-retrograde .period-lasts__next div:nth-of-type(2) { 
+	color: rgb(240, 254, 254); 
+	text-transform: capitalize;
+}
