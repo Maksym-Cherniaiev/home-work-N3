@@ -1,0 +1,6 @@
+.main-row .seventh {
+	display: flex;
+	padding: 0 10px 0 10px;
+	color: rgb(240, 254, 254);
+	justify-content: space-evenly;
+}

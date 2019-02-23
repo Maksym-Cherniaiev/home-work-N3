@@ -1,10 +1,10 @@
 .events-graph__line {
-	width: 240px;
+	width: 280px;
 	height: 2px;
 	background-color: rgb(162, 237, 242);
 	transform: rotate(90deg);
 	position: relative;
-	top: 220px;
+	top: 139px;
 	z-index: 1;
-	left: 134px;
+	left: 213px;
 }
